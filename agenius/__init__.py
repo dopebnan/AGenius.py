@@ -6,7 +6,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 # flake8: noqa
-__version__ = "4.0.1"
+__version__ = "4.0.2"
 __author__ = "dopebnan"
 
 from .main import Genius

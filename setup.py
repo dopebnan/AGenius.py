@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="agenius",
-    version="4.0.1",
+    version="4.0.2",
     description="A LyricsGenius fork with async ready features.",
     long_description=long_description,
     long_description_content_type="text/markdown",
