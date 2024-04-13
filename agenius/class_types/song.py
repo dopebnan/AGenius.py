@@ -51,6 +51,8 @@ class Song(BaseEntity):
         return f"{self.title} by {self.artist}:\n    {lyr}"
 
     def __cmp__(self, other):
-        return (cmp(self.title, other.title)
-                and cmp(self.artist, other.artist)
-                and cmp(self.lyrics, other.lyrics))
+        return (
+            cmp(self.title, other.title) and
+            cmp(self.artist, other.artist) and
+            cmp(self.lyrics, other.lyrics)
+        )

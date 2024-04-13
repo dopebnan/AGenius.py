@@ -46,8 +46,10 @@ def is_match(result, title, artist=None):
 
 class Genius(API):
     """Main class that makes the requests. Inherits from the API class."""
-    default_ex_terms = [r"track\s?list", "album art(work)?", "liner notes", "booklet", "credits", "interview", "skit",
-                        "instrumental", "setlist"]
+    default_ex_terms = [
+        r"track\s?list", "album art(work)?", "liner notes", "booklet", "credits",
+        "interview", "skit", "instrumental", "setlist"
+    ]
 
     def __init__(self, access_token, verbose=True, retries=0):
         """
